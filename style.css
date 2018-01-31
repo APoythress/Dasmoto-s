@@ -1,0 +1,54 @@
+/* Banner */
+.container {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  background-size: cover;
+}
+
+.centered {
+    position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Brush Section */
+
+.brush h3 {
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+}
+
+/* Frames Section */
+
+.frames h3 {
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+}
+
+/* Paint Section */
+
+.paint h3 {
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
+}
+
+/* Font Formatting for h4 and paragraphs */
+
+h4,
+p {
+  font-family: Helvetica;
+}
